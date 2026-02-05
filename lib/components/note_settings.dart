@@ -21,14 +21,6 @@ class NoteSettings extends StatelessWidget {
         // edit option
         GestureDetector(
           onTap: () {
-            // // Capture the popover's route before opening the dialog
-            // final popoverRoute = ModalRoute.of(context);
-            // // Remove the popover route after a brief delay
-            // Future.delayed(Duration(milliseconds: 100), () {
-            //   if (popoverRoute != null) {
-            //     Navigator.of(context).removeRoute(popoverRoute);
-            //   }
-            // });
             Navigator.of(context).pop();
             onEditTap!();
           },
