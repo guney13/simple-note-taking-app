@@ -1,4 +1,4 @@
-# **simple_note_taking_app**
+# **simple_note_taking_app_in_flutter**
 
 ## Features
 - Used Provider to access notes from the NotesDatabase class,
